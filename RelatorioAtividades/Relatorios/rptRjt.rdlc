@@ -1,0 +1,1916 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Rectangle Name="Rectangle1">
+        <ReportItems>
+          <Textbox Name="Textbox1">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Regularização da jornada de trabalho</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox1</rd:DefaultName>
+            <Top>1.62156cm</Top>
+            <Left>5.24348cm</Left>
+            <Height>0.6cm</Height>
+            <Width>6.54812cm</Width>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Image Name="LogoDeak">
+            <Source>Embedded</Source>
+            <Value>logo_deak</Value>
+            <Sizing>FitProportional</Sizing>
+            <Top>0.3175cm</Top>
+            <Left>0.3175cm</Left>
+            <Height>1.90724cm</Height>
+            <Width>4.80251cm</Width>
+            <ZIndex>1</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Image>
+        </ReportItems>
+        <KeepTogether>true</KeepTogether>
+        <Top>0.3175cm</Top>
+        <Left>0.29135cm</Left>
+        <Height>2.53244cm</Height>
+        <Width>15.92729cm</Width>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+        </Style>
+      </Rectangle>
+      <Rectangle Name="Rectangle2">
+        <ReportItems>
+          <Textbox Name="Textbox2">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Nome:</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox2</rd:DefaultName>
+            <Top>0.16112cm</Top>
+            <Left>0.26458cm</Left>
+            <Height>0.6cm</Height>
+            <Width>1.18968cm</Width>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox3">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Data:</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox3</rd:DefaultName>
+            <Top>0.16112cm</Top>
+            <Left>11.19505cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.97423cm</Width>
+            <ZIndex>1</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="txtData">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <Format>d</Format>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>0.13466cm</Top>
+            <Left>12.34567cm</Left>
+            <Height>0.6cm</Height>
+            <Width>2.9567cm</Width>
+            <ZIndex>2</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="txtNome">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>0.16112cm</Top>
+            <Left>1.5601cm</Left>
+            <Height>0.6cm</Height>
+            <Width>9.15238cm</Width>
+            <ZIndex>3</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+        </ReportItems>
+        <KeepTogether>true</KeepTogether>
+        <Top>2.99105cm</Top>
+        <Left>0.29135cm</Left>
+        <Height>1.05833cm</Height>
+        <Width>15.92729cm</Width>
+        <ZIndex>1</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BottomBorder>
+            <Style>Solid</Style>
+          </BottomBorder>
+        </Style>
+      </Rectangle>
+      <Rectangle Name="Rectangle3">
+        <ReportItems>
+          <Textbox Name="txtCheckFaltaPerInt">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>0.22293cm</Top>
+            <Left>0.17638cm</Left>
+            <Height>0.41479cm</Height>
+            <Width>0.46271cm</Width>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox6">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Falta Período Integral</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox6</rd:DefaultName>
+            <Top>0.22293cm</Top>
+            <Left>0.89076cm</Left>
+            <Height>0.6cm</Height>
+            <Width>3.69062cm</Width>
+            <ZIndex>1</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox7">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Falta 1/2 Peródo:</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox7</rd:DefaultName>
+            <Top>0.22293cm</Top>
+            <Left>5.94431cm</Left>
+            <Height>0.6cm</Height>
+            <Width>2.8175cm</Width>
+            <ZIndex>2</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="txtCheckFaltaMeioPerManha">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>0.22293cm</Top>
+            <Left>9.18217cm</Left>
+            <Height>0.41479cm</Height>
+            <Width>0.46271cm</Width>
+            <ZIndex>3</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox9">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Manhã</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox9</rd:DefaultName>
+            <Top>0.22293cm</Top>
+            <Left>9.78599cm</Left>
+            <Height>0.6cm</Height>
+            <Width>1.23cm</Width>
+            <ZIndex>4</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox10">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Tarde</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox9</rd:DefaultName>
+            <Top>0.22293cm</Top>
+            <Left>11.84451cm</Left>
+            <Height>0.6cm</Height>
+            <Width>1.23cm</Width>
+            <ZIndex>5</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="txtCheckFaltaMeioPerTarde">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>0.22293cm</Top>
+            <Left>11.24069cm</Left>
+            <Height>0.41479cm</Height>
+            <Width>0.46271cm</Width>
+            <ZIndex>6</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="txtCheckAtrasoManha">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>1.31921cm</Top>
+            <Left>0.17638cm</Left>
+            <Height>0.41479cm</Height>
+            <Width>0.46271cm</Width>
+            <ZIndex>7</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox13">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Atraso Manhã - Horas:</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox13</rd:DefaultName>
+            <Top>1.31921cm</Top>
+            <Left>0.89076cm</Left>
+            <Height>0.6cm</Height>
+            <Width>3.69062cm</Width>
+            <ZIndex>8</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="txtHorasAtrasoManha">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>1.31921cm</Top>
+            <Left>4.75778cm</Left>
+            <Height>0.6cm</Height>
+            <Width>2.5cm</Width>
+            <ZIndex>9</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="txtCheckAtrasoTarde">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>1.31921cm</Top>
+            <Left>8.66951cm</Left>
+            <Height>0.41479cm</Height>
+            <Width>0.46271cm</Width>
+            <ZIndex>10</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox17">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Atraso Tarde - Horas:</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox13</rd:DefaultName>
+            <Top>1.31921cm</Top>
+            <Left>9.38389cm</Left>
+            <Height>0.6cm</Height>
+            <Width>3.69062cm</Width>
+            <ZIndex>11</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="txtHorasAtrasoTarde">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>1.31921cm</Top>
+            <Left>13.25091cm</Left>
+            <Height>0.6cm</Height>
+            <Width>2.5cm</Width>
+            <ZIndex>12</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="txtCheckSaidaAntecipada">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>2.40248cm</Top>
+            <Left>0.17639cm</Left>
+            <Height>0.41479cm</Height>
+            <Width>0.46271cm</Width>
+            <ZIndex>13</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox20">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Saída antecipa as</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox13</rd:DefaultName>
+            <Top>2.40248cm</Top>
+            <Left>0.89077cm</Left>
+            <Height>0.6cm</Height>
+            <Width>2.93467cm</Width>
+            <ZIndex>14</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="txtHorasSaidaAntecipada">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>2.40248cm</Top>
+            <Left>4.00182cm</Left>
+            <Height>0.6cm</Height>
+            <Width>2.19763cm</Width>
+            <ZIndex>15</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox22">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Horas</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox9</rd:DefaultName>
+            <Top>2.40248cm</Top>
+            <Left>6.27001cm</Left>
+            <Height>0.6cm</Height>
+            <Width>1.23cm</Width>
+            <ZIndex>16</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="txtCheckAusenciaExped">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>3.46081cm</Top>
+            <Left>0.17639cm</Left>
+            <Height>0.41479cm</Height>
+            <Width>0.46271cm</Width>
+            <ZIndex>17</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox24">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Ausência durante expediente das</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox13</rd:DefaultName>
+            <Top>3.46081cm</Top>
+            <Left>0.89077cm</Left>
+            <Height>0.6cm</Height>
+            <Width>5.30868cm</Width>
+            <ZIndex>18</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="txtHorasInicioAusenciaExped">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>3.46081cm</Top>
+            <Left>6.27001cm</Left>
+            <Height>0.6cm</Height>
+            <Width>1.65302cm</Width>
+            <ZIndex>19</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox26">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Horas até as</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox9</rd:DefaultName>
+            <Top>3.46081cm</Top>
+            <Left>7.99358cm</Left>
+            <Height>0.6cm</Height>
+            <Width>2.16566cm</Width>
+            <ZIndex>20</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="txtHorasFimAusenciaExped">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>3.46081cm</Top>
+            <Left>10.2298cm</Left>
+            <Height>0.6cm</Height>
+            <Width>1.65302cm</Width>
+            <ZIndex>21</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="txtCheckServicoExterno">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>4.56954cm</Top>
+            <Left>0.17639cm</Left>
+            <Height>0.41479cm</Height>
+            <Width>0.46271cm</Width>
+            <ZIndex>22</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox29">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Ausência Período Integral - Serviço Externo: De</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox13</rd:DefaultName>
+            <Top>4.56954cm</Top>
+            <Left>0.89077cm</Left>
+            <Height>0.6cm</Height>
+            <Width>7.47938cm</Width>
+            <ZIndex>23</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="txtHorasInicioAusenciaServExterno">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>4.56954cm</Top>
+            <Left>8.49251cm</Left>
+            <Height>0.6cm</Height>
+            <Width>1.65302cm</Width>
+            <ZIndex>24</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox31">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>até</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox9</rd:DefaultName>
+            <Top>4.56954cm</Top>
+            <Left>10.21609cm</Left>
+            <Height>0.6cm</Height>
+            <Width>0.7999cm</Width>
+            <ZIndex>25</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="txtHorasFimServExterno">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>4.56954cm</Top>
+            <Left>11.12182cm</Left>
+            <Height>0.6cm</Height>
+            <Width>1.68831cm</Width>
+            <ZIndex>26</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox33">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Justificativa:</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox13</rd:DefaultName>
+            <Top>5.74762cm</Top>
+            <Left>0.17639cm</Left>
+            <Height>0.6cm</Height>
+            <Width>2.00233cm</Width>
+            <ZIndex>27</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="txtJustificativa">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>5.74762cm</Top>
+            <Left>2.28455cm</Left>
+            <Height>0.6cm</Height>
+            <Width>13.46636cm</Width>
+            <ZIndex>28</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Line Name="Line2">
+            <Top>6.65238cm</Top>
+            <Left>0.17639cm</Left>
+            <Height>0cm</Height>
+            <Width>15.57452cm</Width>
+            <ZIndex>29</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Textbox Name="Textbox35">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Justificativa Serviço Externo:</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox13</rd:DefaultName>
+            <Top>6.95714cm</Top>
+            <Left>0.15875cm</Left>
+            <Height>0.6cm</Height>
+            <Width>4.51084cm</Width>
+            <ZIndex>30</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox36">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Nome Cliente:</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox13</rd:DefaultName>
+            <Top>7.73353cm</Top>
+            <Left>0.17638cm</Left>
+            <Height>0.6cm</Height>
+            <Width>2.32991cm</Width>
+            <ZIndex>31</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="txtJustServExterCliente">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>7.73353cm</Top>
+            <Left>2.61212cm</Left>
+            <Height>0.6cm</Height>
+            <Width>7.53341cm</Width>
+            <ZIndex>32</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox38">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Ticket N.</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox13</rd:DefaultName>
+            <Top>7.73353cm</Top>
+            <Left>10.44223cm</Left>
+            <Height>0.6cm</Height>
+            <Width>1.72705cm</Width>
+            <ZIndex>33</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="txtJustServExterTicket">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>7.73353cm</Top>
+            <Left>12.34567cm</Left>
+            <Height>0.6cm</Height>
+            <Width>3.40524cm</Width>
+            <ZIndex>34</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+        </ReportItems>
+        <KeepTogether>true</KeepTogether>
+        <Top>4.16293cm</Top>
+        <Left>0.29135cm</Left>
+        <Height>8.71865cm</Height>
+        <Width>15.92729cm</Width>
+        <ZIndex>2</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+        </Style>
+      </Rectangle>
+      <Rectangle Name="Rectangle4">
+        <ReportItems>
+          <Textbox Name="Textbox68">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Autorização de Hora Extra</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox68</rd:DefaultName>
+            <Top>0.25198cm</Top>
+            <Left>5.23324cm</Left>
+            <Height>0.6cm</Height>
+            <Width>6.54812cm</Width>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox40">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Hora Inicio:</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox13</rd:DefaultName>
+            <Top>1.02837cm</Top>
+            <Left>0.16615cm</Left>
+            <Height>0.6cm</Height>
+            <Width>2.00233cm</Width>
+            <ZIndex>1</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="txtHoraExtraInicio">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>1.02837cm</Top>
+            <Left>2.30959cm</Left>
+            <Height>0.6cm</Height>
+            <Width>3.48274cm</Width>
+            <ZIndex>2</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox42">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Hora Térmno:</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox13</rd:DefaultName>
+            <Top>1.02837cm</Top>
+            <Left>6.15518cm</Left>
+            <Height>0.6cm</Height>
+            <Width>2.59639cm</Width>
+            <ZIndex>3</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="txtHoraExtraFim">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>1.02837cm</Top>
+            <Left>8.93362cm</Left>
+            <Height>0.6cm</Height>
+            <Width>3.48274cm</Width>
+            <ZIndex>4</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox44">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Autorizado por :</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox13</rd:DefaultName>
+            <Top>2.04345cm</Top>
+            <Left>0.14851cm</Left>
+            <Height>0.6cm</Height>
+            <Width>2.63229cm</Width>
+            <ZIndex>5</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="txtAutorizaHoraExtra">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>2.04345cm</Top>
+            <Left>2.90175cm</Left>
+            <Height>0.6cm</Height>
+            <Width>12.83892cm</Width>
+            <ZIndex>6</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox46">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Ticket N.</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox13</rd:DefaultName>
+            <Top>3.02619cm</Top>
+            <Left>0.16614cm</Left>
+            <Height>0.6cm</Height>
+            <Width>1.72705cm</Width>
+            <ZIndex>7</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="txtTicketHoraExtra">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>3.02619cm</Top>
+            <Left>2.06958cm</Left>
+            <Height>0.6cm</Height>
+            <Width>3.40524cm</Width>
+            <ZIndex>8</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox48">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Motivo da Hora Extraordinária:</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox13</rd:DefaultName>
+            <Top>4.07192cm</Top>
+            <Left>0.16614cm</Left>
+            <Height>0.6cm</Height>
+            <Width>4.77606cm</Width>
+            <ZIndex>9</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="txtMotivoHoraExtra">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>4.07192cm</Top>
+            <Left>5.11859cm</Left>
+            <Height>0.6cm</Height>
+            <Width>10.62208cm</Width>
+            <ZIndex>10</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <BottomBorder>
+                <Style>Solid</Style>
+              </BottomBorder>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox50">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Obs: As horas extras autorizadas não deverão exceder a duas horas por dia.</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox13</rd:DefaultName>
+            <Top>5.12004cm</Top>
+            <Left>0.14851cm</Left>
+            <Height>0.6cm</Height>
+            <Width>15.59216cm</Width>
+            <ZIndex>11</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+        </ReportItems>
+        <KeepTogether>true</KeepTogether>
+        <Top>13.00757cm</Top>
+        <Left>0.30159cm</Left>
+        <Height>5.79563cm</Height>
+        <Width>15.91705cm</Width>
+        <ZIndex>3</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+        </Style>
+      </Rectangle>
+      <Textbox Name="Textbox51">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Assinatura Funcionário:</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox13</rd:DefaultName>
+        <Top>19.25916cm</Top>
+        <Left>0.29135cm</Left>
+        <Height>0.6cm</Height>
+        <Width>4.77606cm</Width>
+        <ZIndex>4</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox52">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Assinatura Líder:</Value>
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox13</rd:DefaultName>
+        <Top>19.25916cm</Top>
+        <Left>8.97111cm</Left>
+        <Height>0.6cm</Height>
+        <Width>4.77606cm</Width>
+        <ZIndex>5</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox53">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value />
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox15</rd:DefaultName>
+        <Top>20.36789cm</Top>
+        <Left>0.30159cm</Left>
+        <Height>0.6cm</Height>
+        <Width>7.24754cm</Width>
+        <ZIndex>6</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <BottomBorder>
+            <Style>Solid</Style>
+          </BottomBorder>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox54">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value />
+                <Style />
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox15</rd:DefaultName>
+        <Top>20.36789cm</Top>
+        <Left>8.97111cm</Left>
+        <Height>0.6cm</Height>
+        <Width>7.24754cm</Width>
+        <ZIndex>7</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <BottomBorder>
+            <Style>Solid</Style>
+          </BottomBorder>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox84">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Entregue este formulário no RH no dia seguinte da ocorrência.</Value>
+                <Style>
+                  <FontStyle>Normal</FontStyle>
+                  <FontFamily>Calibri</FontFamily>
+                  <FontSize>11pt</FontSize>
+                  <FontWeight>Normal</FontWeight>
+                  <TextDecoration>None</TextDecoration>
+                  <Color>#000000</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Ausência período integral – Serviço externo: entregue o RJT antes da ocorrência.</Value>
+                <Style>
+                  <FontStyle>Normal</FontStyle>
+                  <FontFamily>Calibri</FontFamily>
+                  <FontSize>11pt</FontSize>
+                  <FontWeight>Normal</FontWeight>
+                  <TextDecoration>None</TextDecoration>
+                  <Color>#000000</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <LeftIndent>0cm</LeftIndent>
+            <RightIndent>0cm</RightIndent>
+            <Style>
+              <TextAlign>Left</TextAlign>
+              <LineHeight>12pt</LineHeight>
+            </Style>
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>As ocorrências não regularizadano dia seguinte serão consideradas particulares e descontadas em folha.</Value>
+                <Style>
+                  <FontStyle>Normal</FontStyle>
+                  <FontFamily>Calibri</FontFamily>
+                  <FontSize>11pt</FontSize>
+                  <FontWeight>Normal</FontWeight>
+                  <TextDecoration>None</TextDecoration>
+                  <Color>#000000</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <LeftIndent>0cm</LeftIndent>
+            <RightIndent>0cm</RightIndent>
+            <Style>
+              <TextAlign>Left</TextAlign>
+              <LineHeight>12pt</LineHeight>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox84</rd:DefaultName>
+        <Top>21.46178cm</Top>
+        <Left>0.29135cm</Left>
+        <Height>1.65833cm</Height>
+        <Width>15.92729cm</Width>
+        <ZIndex>8</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+    </ReportItems>
+    <Height>9.14407in</Height>
+    <Style />
+  </Body>
+  <Width>6.5in</Width>
+  <Page>
+    <PageHeight>29.7cm</PageHeight>
+    <PageWidth>21cm</PageWidth>
+    <LeftMargin>2cm</LeftMargin>
+    <RightMargin>2cm</RightMargin>
+    <TopMargin>2cm</TopMargin>
+    <BottomMargin>2cm</BottomMargin>
+    <ColumnSpacing>0.13cm</ColumnSpacing>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <EmbeddedImages>
+    <EmbeddedImage Name="logo_deak">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>ac2cb60d-f996-4025-be50-b8fdc517f038</rd:ReportID>
+</Report>

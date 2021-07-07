@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelatorioAtividades", "RelatorioAtividades\RelatorioAtividades.csproj", "{C31809AC-F15F-437F-9F27-8B9A89CC76DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Banco", "Banco", "{522933DF-9E01-430B-A9E9-173F9C4B4FAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoDados", "BancoDados\BancoDados.csproj", "{B570A800-65AA-4F0C-B5AD-3439346AE113}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://4iti.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BancoDados\\BancoDados.csproj
+		SccProjectTopLevelParentUniqueName1 = RelatorioAtividadesControleTempo.sln
+		SccProjectName1 = BancoDados
+		SccLocalPath1 = BancoDados
+		SccProjectUniqueName2 = RelatorioAtividades\\RelatorioAtividades.csproj
+		SccProjectName2 = RelatorioAtividades
+		SccLocalPath2 = RelatorioAtividades
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C31809AC-F15F-437F-9F27-8B9A89CC76DC}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{C31809AC-F15F-437F-9F27-8B9A89CC76DC}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{C31809AC-F15F-437F-9F27-8B9A89CC76DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C31809AC-F15F-437F-9F27-8B9A89CC76DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C31809AC-F15F-437F-9F27-8B9A89CC76DC}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{C31809AC-F15F-437F-9F27-8B9A89CC76DC}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{C31809AC-F15F-437F-9F27-8B9A89CC76DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C31809AC-F15F-437F-9F27-8B9A89CC76DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C31809AC-F15F-437F-9F27-8B9A89CC76DC}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{C31809AC-F15F-437F-9F27-8B9A89CC76DC}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{B570A800-65AA-4F0C-B5AD-3439346AE113}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{B570A800-65AA-4F0C-B5AD-3439346AE113}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{B570A800-65AA-4F0C-B5AD-3439346AE113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B570A800-65AA-4F0C-B5AD-3439346AE113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B570A800-65AA-4F0C-B5AD-3439346AE113}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{B570A800-65AA-4F0C-B5AD-3439346AE113}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{B570A800-65AA-4F0C-B5AD-3439346AE113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B570A800-65AA-4F0C-B5AD-3439346AE113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B570A800-65AA-4F0C-B5AD-3439346AE113}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{B570A800-65AA-4F0C-B5AD-3439346AE113}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B570A800-65AA-4F0C-B5AD-3439346AE113} = {522933DF-9E01-430B-A9E9-173F9C4B4FAC}
+	EndGlobalSection
+EndGlobal
